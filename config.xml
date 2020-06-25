@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns       = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
-        id          = "fr.belhairs/bapp"
+        id          = "fr.adapp.alizesdeveloppement/sylvio"
         versionCode = "10"
         version     = "1.0.0.0" >
 
-	<name>BelHairs</name>
+	<name>vcard sylvio</name>
 
 	<description></description>
 
@@ -32,8 +32,8 @@
 	<plugin name="cordova-plugin-device" source="npm" />
 	<plugin name="cordova-plugin-statusbar" source="npm" />
 	<plugin name="cordova-build-architecture" spec="https://github.com/MBuchalik/cordova-build-architecture.git#v1.0.4" source="git" />
-    <gap:plugin name="nl.x-services.plugins.socialsharing" version="4.3.16" />
-    <content src="https://belhairs.fr/bapp//" />
+   
+    <content src="https://adapp.alizesdeveloppement.fr/sylvio" />
 
 	<!-- Whitelist policy  -->
 	<access origin="*" />
@@ -44,7 +44,7 @@
 	<preference name="SplashScreen" value="splash" />
 	<preference name="SplashScreenDelay" value="10000" />
 	<preference name="FadeSplashScreenDuration" value="300" />
-	<preference name="ShowSplashScreenSpinner" value="false" />
+	<preference name="ShowSplashScreenSpinner" value="true" />
 
 	<!-- Icons and Splashscreens declaration -->
 
@@ -57,11 +57,6 @@
 	<icon src="icons/icon-wp-appkit-xxxhdpi.png" gap:platform="android" gap:qualifier="xxxhdpi" />
 	
 	<gap:splash src="splash.png" gap:platform="android" />
-	<gap:splash src="splashscreens/splashscreen-wp-appkit-ldpi.9.png" gap:platform="android" gap:qualifier="ldpi" />
-	<gap:splash src="splashscreens/splashscreen-wp-appkit-mdpi.9.png" gap:platform="android" gap:qualifier="mdpi" />
-	<gap:splash src="splashscreens/splashscreen-wp-appkit-hdpi.9.png" gap:platform="android" gap:qualifier="hdpi" />
-	<gap:splash src="splashscreens/splashscreen-wp-appkit-xhdpi.9.png" gap:platform="android" gap:qualifier="xhdpi" />
-	<gap:splash src="splashscreens/splashscreen-wp-appkit-xxhdpi.9.png" gap:platform="android" gap:qualifier="xxhdpi" />
-	<gap:splash src="splashscreens/splashscreen-wp-appkit-xxxhdpi.9.png" gap:platform="android" gap:qualifier="xxxhdpi" />
+	
 	
 </widget>
