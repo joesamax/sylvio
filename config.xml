@@ -5,7 +5,7 @@
         versionCode = "10"
         version     = "1.0.0.0" >
 
-	<name>Melissa ADcard</name>
+	<name>Sylvio ADcard</name>
 
 	<description>Votre carte virtuelle professionnelle par Alizés Développement</description>
 
@@ -18,7 +18,7 @@
 	<preference name="buildArchitecture" value="arm" />
 	<preference name="android-build-tool" value="gradle" />
 	<preference name="permissions" value="none"/>
-
+	<preference name="loadUrlTimeoutValue" value="700000" />
 	<preference name="disallowOverscroll" value="true" />
 	<preference name="webviewbounce" value="false" />
 
@@ -32,7 +32,7 @@
 	<plugin name="cordova-plugin-device" source="npm" />
 	<plugin name="cordova-plugin-statusbar" source="npm" />
 	<plugin name="cordova-build-architecture" spec="https://github.com/MBuchalik/cordova-build-architecture.git#v1.0.4" source="git" />
-        <content src="https://adapp.alizesdeveloppement.fr/melissa/" />
+        <content src="https://adapp.alizesdeveloppement.fr/sylvio/" />
 
 	<!-- Whitelist policy  -->
 	<access origin="*" />
@@ -48,19 +48,20 @@
 	<!-- Icons and Splashscreens declaration -->
 
 	<icon src="icon.png" gap:platform="android" />
-	<icon src="icons/icon-wp-appkit-ldpi.png" gap:platform="android" gap:qualifier="ldpi" />
-	<icon src="icons/icon-wp-appkit-mdpi.png" gap:platform="android" gap:qualifier="mdpi" />
-	<icon src="icons/icon-wp-appkit-hdpi.png" gap:platform="android" gap:qualifier="hdpi" />
-	<icon src="icons/icon-wp-appkit-xhdpi.png" gap:platform="android" gap:qualifier="xhdpi" />
-	<icon src="icons/icon-wp-appkit-xxhdpi.png" gap:platform="android" gap:qualifier="xxhdpi" />
-	<icon src="icons/icon-wp-appkit-xxxhdpi.png" gap:platform="android" gap:qualifier="xxxhdpi" />
+	<icon src="icon.png" gap:platform="android" gap:qualifier="ldpi" />
+	<icon src="icon.png" gap:platform="android" gap:qualifier="mdpi" />
+	<icon src="icon.png" gap:platform="android" gap:qualifier="hdpi" />
+	<icon src="icon.png" gap:platform="android" gap:qualifier="xhdpi" />
+	<icon src="icon.png" gap:platform="android" gap:qualifier="xxhdpi" />
+	<icon src="icon.png" gap:platform="android" gap:qualifier="xxxhdpi" />
 	
-	<gap:splash src="res/icons/splash.png" gap:platform="android" />
-	<gap:splash src="splashscreens/splashscreen-wp-appkit-ldpi.9.png" gap:platform="android" gap:qualifier="ldpi" />
-	<gap:splash src="splashscreens/splashscreen-wp-appkit-mdpi.9.png" gap:platform="android" gap:qualifier="mdpi" />
-	<gap:splash src="splashscreens/splashscreen-wp-appkit-hdpi.9.png" gap:platform="android" gap:qualifier="hdpi" />
-	<gap:splash src="splashscreens/splashscreen-wp-appkit-xhdpi.9.png" gap:platform="android" gap:qualifier="xhdpi" />
-	<gap:splash src="splashscreens/splashscreen-wp-appkit-xxhdpi.9.png" gap:platform="android" gap:qualifier="xxhdpi" />
-	<gap:splash src="splashscreens/splashscreen-wp-appkit-xxxhdpi.9.png" gap:platform="android" gap:qualifier="xxxhdpi" />
+	<gap:splash src="splash.png" gap:platform="android" />
+	<gap:splash src="splash.png" gap:platform="android" gap:qualifier="ldpi" />
+	<gap:splash src="splash.png" gap:platform="android" gap:qualifier="mdpi" />
+	<gap:splash src="splash.png" gap:platform="android" gap:qualifier="hdpi" />
+	<gap:splash src="splash.png" gap:platform="android" gap:qualifier="xhdpi" />
+	<gap:splash src="splash.png" gap:platform="android" gap:qualifier="xxhdpi" />
+	<gap:splash src="splash.png" gap:platform="android" gap:qualifier="xxxhdpi" />
+	
 	
 </widget>
